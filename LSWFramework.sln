@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LSWClassLib", "LSWClassLib\LSWClassLib.vbproj", "{A50A0124-62C9-4A85-9D80-58EE380C5E08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68E317AA-AC8B-48D2-88B8-D8D0BD614FF8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A50A0124-62C9-4A85-9D80-58EE380C5E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50A0124-62C9-4A85-9D80-58EE380C5E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50A0124-62C9-4A85-9D80-58EE380C5E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50A0124-62C9-4A85-9D80-58EE380C5E08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

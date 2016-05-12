@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A50A0124-62C9-4A85-9D80-58EE380C5E08}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LSW</RootNamespace>
+    <AssemblyName>LSWFramework</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <CodeContractsAssemblyMode>1</CodeContractsAssemblyMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>LSWFramework.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeContractsEnableRuntimeChecking>False</CodeContractsEnableRuntimeChecking>
+    <CodeContractsRuntimeOnlyPublicSurface>False</CodeContractsRuntimeOnlyPublicSurface>
+    <CodeContractsRuntimeThrowOnFailure>True</CodeContractsRuntimeThrowOnFailure>
+    <CodeContractsRuntimeCallSiteRequires>False</CodeContractsRuntimeCallSiteRequires>
+    <CodeContractsRuntimeSkipQuantifiers>False</CodeContractsRuntimeSkipQuantifiers>
+    <CodeContractsRunCodeAnalysis>False</CodeContractsRunCodeAnalysis>
+    <CodeContractsNonNullObligations>True</CodeContractsNonNullObligations>
+    <CodeContractsBoundsObligations>True</CodeContractsBoundsObligations>
+    <CodeContractsArithmeticObligations>False</CodeContractsArithmeticObligations>
+    <CodeContractsEnumObligations>False</CodeContractsEnumObligations>
+    <CodeContractsRedundantAssumptions>False</CodeContractsRedundantAssumptions>
+    <CodeContractsMissingPublicRequiresAsWarnings>True</CodeContractsMissingPublicRequiresAsWarnings>
+    <CodeContractsInferRequires>True</CodeContractsInferRequires>
+    <CodeContractsInferEnsures>False</CodeContractsInferEnsures>
+    <CodeContractsInferObjectInvariants>False</CodeContractsInferObjectInvariants>
+    <CodeContractsSuggestAssumptions>False</CodeContractsSuggestAssumptions>
+    <CodeContractsSuggestRequires>True</CodeContractsSuggestRequires>
+    <CodeContractsSuggestObjectInvariants>False</CodeContractsSuggestObjectInvariants>
+    <CodeContractsRunInBackground>True</CodeContractsRunInBackground>
+    <CodeContractsShowSquigglies>True</CodeContractsShowSquigglies>
+    <CodeContractsUseBaseLine>False</CodeContractsUseBaseLine>
+    <CodeContractsEmitXMLDocs>True</CodeContractsEmitXMLDocs>
+    <CodeContractsCustomRewriterAssembly />
+    <CodeContractsCustomRewriterClass />
+    <CodeContractsLibPaths />
+    <CodeContractsExtraRewriteOptions />
+    <CodeContractsExtraAnalysisOptions />
+    <CodeContractsSQLServerOption />
+    <CodeContractsBaseLineFile />
+    <CodeContractsCacheAnalysisResults>True</CodeContractsCacheAnalysisResults>
+    <CodeContractsFailBuildOnWarnings>False</CodeContractsFailBuildOnWarnings>
+    <CodeContractsRuntimeCheckingLevel>Full</CodeContractsRuntimeCheckingLevel>
+    <CodeContractsReferenceAssembly>Build</CodeContractsReferenceAssembly>
+    <CodeContractsAnalysisWarningLevel>0</CodeContractsAnalysisWarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>LSWFramework.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\Alipay\Core.vb" />
+    <Compile Include="Api\Bing\TranslatorContainer.vb" />
+    <Compile Include="Api\Open189\SMSResult.vb" />
+    <Compile Include="Api\Open189\SMSVCResult.vb" />
+    <Compile Include="Api\Pay15173.vb" />
+    <Compile Include="Api\UpYunLibrary\FolderItem.vb" />
+    <Compile Include="Api\UpYunLibrary\UpYun.vb" />
+    <Compile Include="Api\YouDao\Translation.vb" />
+    <Compile Include="Attributes\AutoLogAttribute.vb" />
+    <Compile Include="Attributes\AutoLogProperty.vb" />
+    <Compile Include="Attributes\AutoLogSink.vb" />
+    <Compile Include="Attributes\IAutoLogHelper.vb" />
+    <Compile Include="BigInteger.vb" />
+    <Compile Include="Blog\PingService.vb" />
+    <Compile Include="CMD\CMDHelper.vb" />
+    <Compile Include="Common\AssemblyDetails.vb" />
+    <Compile Include="Common\AssemblyHelper.vb" />
+    <Compile Include="Common\CacheContainer.vb" />
+    <Compile Include="Common\Compiler.vb" />
+    <Compile Include="Common\DynamicLoad\AssemblyLoader.vb" />
+    <Compile Include="Common\DynamicLoad\InvokerInfo.vb" />
+    <Compile Include="Common\DynamicLoad\MethodInvoker.vb" />
+    <Compile Include="Common\HashedLinkedList.vb" />
+    <Compile Include="Common\IObjectState.vb" />
+    <Compile Include="Common\LoadResourceDll.vb" />
+    <Compile Include="Common\ObjectState.vb" />
+    <Compile Include="Common\Runtime.vb" />
+    <Compile Include="ComponentModel\EnumDescriptionConverter.vb" />
+    <Compile Include="Computer\FileSystem.vb" />
+    <Compile Include="Computer\MachineCode.vb" />
+    <Compile Include="Computer\MouseEventFlag.vb" />
+    <Compile Include="Computer\MouseHelper.vb" />
+    <Compile Include="Computer\PowerHelper.vb" />
+    <Compile Include="Computer\RegistryHelper.vb" />
+    <Compile Include="Computer\ServiceHelper.vb" />
+    <Compile Include="Data\DBAccess.vb" />
+    <Compile Include="Data\OledbHelper.vb" />
+    <Compile Include="Data\SqlHelper.vb" />
+    <Compile Include="Device\URF\ErrorHelper.vb" />
+    <Compile Include="Device\URF\URFHelper.vb" />
+    <Compile Include="ErrorEventArgs.vb" />
+    <Compile Include="Exceptions\LSWFrameworkException.vb" />
+    <Compile Include="Extension\BitmapHelper.vb" />
+    <Compile Include="Extension\ByteHelper.vb" />
+    <Compile Include="Extension\CookiesHelper.vb" />
+    <Compile Include="Extension\DataGridViewHelper.vb" />
+    <Compile Include="Extension\DataHelper.vb" />
+    <Compile Include="Extension\DataSetLinqHelper.vb" />
+    <Compile Include="Extension\DateTimeHelper.vb" />
+    <Compile Include="Extension\DraggerHelper.vb" />
+    <Compile Include="Extension\EDMXExtension.vb" />
+    <Compile Include="Extension\FormatExpression.vb" />
+    <Compile Include="Extension\ITextExpression.vb" />
+    <Compile Include="Extension\JSONHelper.vb" />
+    <Compile Include="Extension\ListBoxExtension.vb" />
+    <Compile Include="Extension\ListExtension.vb" />
+    <Compile Include="Extension\LiteralFormat.vb" />
+    <Compile Include="Extension\LSWFormatter.vb" />
+    <Compile Include="Extension\NumHelper.vb" />
+    <Compile Include="Extension\ObjectShredder.vb" />
+    <Compile Include="Extension\PrinterHelper.vb" />
+    <Compile Include="Extension\SerializeHelper.vb" />
+    <Compile Include="Extension\TextBoxHelper.vb" />
+    <Compile Include="Extension\ThreadHelper.vb" />
+    <Compile Include="Extension\TypeHelper.vb" />
+    <Compile Include="Files\FileHashHelper.vb" />
+    <Compile Include="Files\FileSystemScanner.vb" />
+    <Compile Include="Files\MFT.vb" />
+    <Compile Include="Files\ReNameHelper.vb" />
+    <Compile Include="Files\SevenZip\CoderPropID.vb" />
+    <Compile Include="Files\SevenZip\Compression\LZMA\Base.vb" />
+    <Compile Include="Files\SevenZip\Compression\LZMA\Decoder.vb" />
+    <Compile Include="Files\SevenZip\Compression\LZMA\Encoder.vb" />
+    <Compile Include="Files\SevenZip\Compression\LZ\BinTree.vb" />
+    <Compile Include="Files\SevenZip\Compression\LZ\IInWindowStream.vb" />
+    <Compile Include="Files\SevenZip\Compression\LZ\IMatchFinder.vb" />
+    <Compile Include="Files\SevenZip\Compression\LZ\InWindow.vb" />
+    <Compile Include="Files\SevenZip\Compression\LZ\OutWindow.vb" />
+    <Compile Include="Files\SevenZip\Compression\RangeCoder\BitDecoder.vb" />
+    <Compile Include="Files\SevenZip\Compression\RangeCoder\BitEncoder.vb" />
+    <Compile Include="Files\SevenZip\Compression\RangeCoder\BitTreeDecoder.vb" />
+    <Compile Include="Files\SevenZip\Compression\RangeCoder\BitTreeEncoder.vb" />
+    <Compile Include="Files\SevenZip\Compression\RangeCoder\Decoder.vb" />
+    <Compile Include="Files\SevenZip\Compression\RangeCoder\Encoder.vb" />
+    <Compile Include="Files\SevenZip\Compressor.vb" />
+    <Compile Include="Files\SevenZip\CRC.vb" />
+    <Compile Include="Files\SevenZip\DataErrorException.vb" />
+    <Compile Include="Files\SevenZip\ICodeProgress.vb" />
+    <Compile Include="Files\SevenZip\ICoder.vb" />
+    <Compile Include="Files\SevenZip\InvalidParamException.vb" />
+    <Compile Include="Files\SevenZip\ISetCoderProperties.vb" />
+    <Compile Include="Files\SevenZip\ISetDecoderProperties.vb" />
+    <Compile Include="Files\SevenZip\IWriteCoderProperties.vb" />
+    <Compile Include="Files\Zip.vb" />
+    <Compile Include="Flash\FlashFunArg.vb" />
+    <Compile Include="Flash\FlashHelper.vb" />
+    <Compile Include="Flash\FlashUpload.vb" />
+    <Compile Include="Flash\IFlashFunction.vb" />
+    <Compile Include="Flash\Live012Helper.vb" />
+    <Compile Include="Api\Google\EarthHelper.vb" />
+    <Compile Include="Image\Captcha\CaptchaRecognition.vb" />
+    <Compile Include="Image\Captcha\CaptchaRecognitionBase.vb" />
+    <Compile Include="Image\Captcha\Classification\ClassificationBase.vb" />
+    <Compile Include="Common\Chronograph.vb" />
+    <Compile Include="Image\Captcha\Classification\NearestDistanceClassification.vb" />
+    <Compile Include="Image\Captcha\ConnectedComponent.vb" />
+    <Compile Include="Image\Captcha\SegmentCharType.vb" />
+    <Compile Include="Image\Captcha\Utility\ImgGrayTrans.vb" />
+    <Compile Include="Image\DrawHelper.vb" />
+    <Compile Include="Image\EXIFextractor.vb" />
+    <Compile Include="Image\EXIFextractorEnumerator.vb" />
+    <Compile Include="Image\Gif\GifDecoder.vb" />
+    <Compile Include="Image\Gif\GifEncoder.vb" />
+    <Compile Include="Image\Gif\LZWEncoder.vb" />
+    <Compile Include="Image\Gif\NeuQuant.vb" />
+    <Compile Include="Image\IconHelper.vb" />
+    <Compile Include="Image\ImageManipulator.vb" />
+    <Compile Include="Image\ImageWaterMark.vb" />
+    <Compile Include="Image\PicHelper.vb" />
+    <Compile Include="Image\QRCode.vb" />
+    <Compile Include="Image\Rational.vb" />
+    <Compile Include="Image\ThumbnailMode.vb" />
+    <Compile Include="Image\Translation.vb" />
+    <Compile Include="Image\VerificationCode.vb" />
+    <Compile Include="Image\WebSiteThumb.vb" />
+    <Compile Include="Licenses\HDDLicense.vb" />
+    <Compile Include="Licenses\HDDLicenseProvider.vb" />
+    <Compile Include="Licenses\IEMainPageLicense.vb" />
+    <Compile Include="Licenses\IEMainPageLicenseProvider.vb" />
+    <Compile Include="Licenses\LSWLicense.vb" />
+    <Compile Include="Licenses\LSWLicenseProvider.vb" />
+    <Compile Include="Licenses\MachineCodeLicense.vb" />
+    <Compile Include="Licenses\MachineCodeLicenseProvider.vb" />
+    <Compile Include="Licenses\USBLicense.vb" />
+    <Compile Include="Licenses\USBLicenseProvider.vb" />
+    <Compile Include="Linq\Dynamic\DynamicLinq.vb" />
+    <Compile Include="Math\BaziAlgorithm.vb" />
+    <Compile Include="Math\Combination.vb" />
+    <Compile Include="Math\EvalModule.vb" />
+    <Compile Include="Math\HungarianAlgorithm.vb" />
+    <Compile Include="Math\RandomNum.vb" />
+    <Compile Include="Model\TreeNodeData.vb" />
+    <Compile Include="Model\TreeViewData.vb" />
+    <Compile Include="Net\Cookie.vb" />
+    <Compile Include="Net\HttpClient.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Net\HttpHelper.vb" />
+    <Compile Include="Net\NetCard.vb" />
+    <Compile Include="Net\Request.vb" />
+    <Compile Include="Net\Response.vb" />
+    <Compile Include="Net\SocketHelper.vb" />
+    <Compile Include="Net\SocketWebServer.vb" />
+    <Compile Include="Net\TOTP.vb" />
+    <Compile Include="Net\TrustAllCertificatePolicy.vb" />
+    <Compile Include="Net\Url.vb" />
+    <Compile Include="Net\WNSHelper.vb" />
+    <Compile Include="Print\FormPrint.vb" />
+    <Compile Include="Print\PrintDG.vb" />
+    <Compile Include="Print\PrintOptions.designer.vb">
+      <DependentUpon>PrintOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Print\PrintOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Providers\INIFileSettingsProvider.vb" />
+    <Compile Include="Providers\RegistrySettingsProvider.vb" />
+    <Compile Include="Reflection\Reflector.vb" />
+    <Compile Include="Security\3DES.vb" />
+    <Compile Include="Security\Adler32.vb" />
+    <Compile Include="Security\Adler32Managed.vb" />
+    <Compile Include="Security\Base32.vb" />
+    <Compile Include="Security\Common.vb" />
+    <Compile Include="Security\DES.vb" />
+    <Compile Include="Security\ElGamal.vb" />
+    <Compile Include="Security\ElGamalAbstractCipher.vb" />
+    <Compile Include="Security\ElGamalDecryptor.vb" />
+    <Compile Include="Security\ElGamalEncryptor.vb" />
+    <Compile Include="Security\ElGamalKeyStruct.vb" />
+    <Compile Include="Security\ElGamalManaged.vb" />
+    <Compile Include="Security\ElGamalParameters.vb" />
+    <Compile Include="Security\File.vb" />
+    <Compile Include="Security\Flash.vb" />
+    <Compile Include="Security\Md5.vb" />
+    <Compile Include="Security\Rijndael.vb" />
+    <Compile Include="Security\RSA.vb" />
+    <Compile Include="Security\SHA512.vb" />
+    <Compile Include="Security\XTEA.vb" />
+    <Compile Include="Security\XTEAManaged.vb" />
+    <Compile Include="Security\XTEAManagedAbstractTransform.vb" />
+    <Compile Include="Security\XTEAManagedDecryptor.vb" />
+    <Compile Include="Security\XTEAManagedEncryptor.vb" />
+    <Compile Include="Text\CharacterEncoder.vb" />
+    <Compile Include="Text\Chinese.vb" />
+    <Compile Include="Text\Distance.vb" />
+    <Compile Include="Text\GB2312_BIG5.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Extension\StringHelper.vb" />
+    <Compile Include="Text\Html2Article\Article.vb" />
+    <Compile Include="Text\Html2Article\Html2Article.vb" />
+    <Compile Include="Text\LevenshteinDistance.vb" />
+    <Compile Include="Text\StrToPinyin.vb" />
+    <Compile Include="Text\Word_Spell.vb" />
+    <Compile Include="Threads\ObjectPool.vb" />
+    <Compile Include="Threads\PercentEventArgs.vb" />
+    <Compile Include="Threads\RetryProvider.vb" />
+    <Compile Include="Threads\ThreadMulti.vb" />
+    <Compile Include="Web\HttpDownloadClient.vb" />
+    <Compile Include="Web\HttpDownloadClientProgressChangedEventArgs.vb" />
+    <Compile Include="Web\HttpDownloadClientStatus.vb" />
+    <Compile Include="Web\JSON.vb" />
+    <Compile Include="Web\JsonObject.vb" />
+    <Compile Include="Web\LSWRequest.vb" />
+    <Compile Include="Web\MultiThreadedWebDownloader.vb" />
+    <Compile Include="Web\MultiThreadedWebDownloaderCompletedEventArgs.vb" />
+    <Compile Include="Web\MultiThreadedWebDownloaderProgressChangedEventArgs.vb" />
+    <Compile Include="Web\MultiThreadedWebDownloaderStatus.vb" />
+    <Compile Include="Web\RSS\RSSFeed.vb" />
+    <Compile Include="Web\RSS\RSSItem.vb" />
+    <Compile Include="Web\Snap\NativeMethods.vb" />
+    <Compile Include="Web\Snap\Snapshot.vb" />
+    <Compile Include="Web\Snap\UnsafeNativeMethods.vb" />
+    <Compile Include="Web\TemplateEngine\ITagHandler.vb" />
+    <Compile Include="Web\TemplateEngine\ITemplateHandler.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\ArrayAccess.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\BinaryExpression.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\DoubleLiteral.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\Element.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\Expression.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\FCall.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\FieldAccess.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\IntLiteral.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\MethodCall.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\Name.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\StringExpression.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\StringLiteral.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\Tag.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\TagAttribute.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\TagClose.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\TagIf.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\AST\Text.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\ParseException.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\TagParser.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\TemplateLexer.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\TemplateParser.vb" />
+    <Compile Include="Web\TemplateEngine\Parser\Token.vb" />
+    <Compile Include="Web\TemplateEngine\StaticTypeReference.vb" />
+    <Compile Include="Web\TemplateEngine\Template.vb" />
+    <Compile Include="Web\TemplateEngine\TemplateManager.vb" />
+    <Compile Include="Web\TemplateEngine\TemplateRuntimeException.vb" />
+    <Compile Include="Web\TemplateEngine\Util.vb" />
+    <Compile Include="Web\TemplateEngine\VariableScope.vb" />
+    <Compile Include="Web\TypeParse.vb" />
+    <Compile Include="Web\UBB.vb" />
+    <Compile Include="Web\UrlMake.vb" />
+    <Compile Include="Web\Utils.vb" />
+    <Compile Include="Win32\ClipboardAPI.vb" />
+    <Compile Include="Win32\Consts.vb" />
+    <Compile Include="Win32\Enums.vb" />
+    <Compile Include="Win32\Gdi32.vb" />
+    <Compile Include="Win32\HotKeyRegister.vb" />
+    <Compile Include="Win32\Kernel32.vb" />
+    <Compile Include="Win32\KeyModifiers.vb" />
+    <Compile Include="Win32\Memory.vb" />
+    <Compile Include="Win32\NativeMethods.vb" />
+    <Compile Include="Win32\Ntdll.vb" />
+    <Compile Include="Win32\POINTAPI.vb" />
+    <Compile Include="Win32\RunningProcess.vb" />
+    <Compile Include="Win32\Shell32.vb" />
+    <Compile Include="Win32\Structs.vb" />
+    <Compile Include="Win32\SystemHook.vb" />
+    <Compile Include="Win32\User32.vb" />
+    <Compile Include="Win32\WindowsSession.vb" />
+    <Compile Include="Win32\Wininet.vb" />
+    <Compile Include="XML\Serialiaze.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print\PrintOptions.resx">
+      <DependentUpon>PrintOptions.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VisualBasic.PowerPacks.10.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Basic PowerPacks 10.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Features.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
