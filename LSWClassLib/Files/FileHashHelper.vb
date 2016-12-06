@@ -42,13 +42,23 @@ Namespace Files
             Return hashBytes
         End Function
 
-        ''' <summary>
-        ''' 计算文件的 MD5 值
-        ''' </summary>
-        ''' <param name="fileName">要计算 MD5 值的文件名和路径</param>
-        ''' <returns>MD5 值16进制字符串</returns>
-        Public Function MD5File(fileName As String) As String
-            Return HashFile(fileName, "md5")
-        End Function
-    End Module
+		''' <summary>
+		''' 计算文件的 MD5 值
+		''' </summary>
+		''' <param name="fileName">要计算 MD5 值的文件名和路径</param>
+		''' <returns>MD5 值16进制字符串</returns>
+		Public Function MD5File(fileName As String) As String
+			Return HashFile(fileName, "md5")
+		End Function
+		''' <summary>
+		''' PE免杀
+		''' </summary>
+		''' <param name="block"></param>
+		''' <returns></returns>
+		Public Function IsValidFile(block() As Byte) As Boolean
+			If block.Length < 2 Then Return False
+
+			Return (block(0) = "M" AndAlso block(1) = "Z") OrElse (block(0) = "Z" AndAlso block(1) = "M")
+		End Function
+	End Module
 End Namespace
